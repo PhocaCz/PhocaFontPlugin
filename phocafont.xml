@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3" type="plugin" group="system" method="upgrade">
+	<name>Phoca Font Plugin</name>
+	<creationDate>01/09/2013</creationDate>
+	<author>Jan Pavelka (www.phoca.cz)</author>
+	<authorEmail></authorEmail>
+	<authorUrl>www.phoca.cz</authorUrl>
+	<copyright>Jan Pavelka</copyright>
+	<license>GNU/GPL</license>
+	<version>3.0.1</version>
+	<description><![CDATA[ <div class="alert alert-info left" style="text-align: left;"><p><strong>Phoca Font Plugin</strong> - plugin to display non-standard web font(s) on website.</p><p>Enable and publish this plugin in <a style="text-decoration: underline" href="index.php?option=com_plugins">Plugin Manager</a></p><p>More information: <a style="text-decoration: underline" href="http://www.phoca.cz/" target="_blank" >Phoca.cz</a></p><p>Documentation: <a style="text-decoration: underline" href="http://www.phoca.cz/documentation/" target="_blank" >Phoca Documentation</a></p><p>Help and Support: <a style="text-decoration: underline" href="http://www.phoca.cz/forum/" target="_blank" >Phoca Forum</a></p></div> ]]></description>
+	<files>
+		<filename plugin="phocafont">phocafont.php</filename>
+		<filename plugin="phocafont">index.html</filename>
+	</files>
+	<config>
+	</config>
+</extension>
