@@ -1,0 +1,19 @@
+{
+	"author": "Jan Pavelka (www.phoca.cz)",
+	"authorUrl": "https://www.phoca.cz",
+	"copyright": "Jan Pavelka",
+	"license": "GNU/GPL",
+	"projectName": "PhocaFontPlugin",
+	"extensionName": "Phoca Font System Plugin",
+	"projectInitials" : "PF",				  
+	"description": "Phoca Font Plugin is a system plugin. This plugin works together with Phoca Font Component. They add support for using downloadable fonts in your Joomla! site. You can upload and select your own .ttf or .otf font file in Phoca Font Component. Font included in this font file will be rendered by Phoca Font Plugin on your site (with help of @font-face rule).",
+	"projectUrl": "https://www.phoca.cz/phocafont-plugin",
+	"projectDocumentationUrl": "https://www.phoca.cz/documentation/category/56-phoca-font-plugin",
+	"projectMainComponent": "Phoca Font",
+	"projectMainComponentInfoUrl": "https://www.phoca.cz/project/phocafont-joomla-font",
+	"projectDemo" : {
+		"Joomla! And Phoca Font Demo": "https://www.phoca.cz/demo/phoca-font-demo",
+		"Joomla! 3 And Phoca Font Demo": "https://www.phoca.cz/joomla3demo/phoca-font-demo"
+	},
+	"projectColor": "#000000"
+}

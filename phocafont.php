@@ -40,9 +40,7 @@ class  plgSystemPhocaFont extends JPlugin
 			return true;
 		}
 		  
-		//$table          =& JTable::getInstance('component');
-		//$table->loadByOption( $component );
-		//$paramsC       = new JParameter( $table->params );
+	
 		
 		$component			= 'com_phocafont';
 		$paramsC			= JComponentHelper::getParams($component) ;
@@ -89,7 +87,7 @@ class  plgSystemPhocaFont extends JPlugin
       }
 
       // Itemid check - - - - -
-      $ItemId      = JRequest::getVar('Itemid', 1, 'int');
+      $ItemId      = JFactory::getApplication()->input->get('Itemid', 1, 'int');
       if ($t['menuselection'] != '') {
          $t['menuselectionarray'] = explode(',', $t['menuselection']);
       }
@@ -165,7 +163,7 @@ class  plgSystemPhocaFont extends JPlugin
 					$css .=   '}'. "\n";
 					
 					//:regular,italic,bold,bolditalic
-					$cssOutput = ' <link href="http://fonts.googleapis.com/css?family='.str_replace(' ', '+', $fontData->title). $variant . $subset .'"'
+					$cssOutput = ' <link href="https://fonts.googleapis.com/css?family='.str_replace(' ', '+', $fontData->title). $variant . $subset .'"'
 								.' rel="stylesheet" type="text/css" />'. "\n";
 					$cssOutput .= '<style type="text/css">' . "\n" . $css . "\n" . '</style>'. "\n";
 				} else {

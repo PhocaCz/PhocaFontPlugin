@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3" type="plugin" group="system" method="upgrade">
-	<name>Phoca Font Plugin</name>
-	<creationDate>01/09/2013</creationDate>
+<extension type="plugin" group="system" method="upgrade" version="3">
+	<name>plg_system_phocafont</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
+	<creationDate>22/02/2019</creationDate>
 	<authorEmail></authorEmail>
-	<authorUrl>www.phoca.cz</authorUrl>
+	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
 	<license>GNU/GPL</license>
-	<version>3.0.1</version>
-	<description><![CDATA[ <div class="alert alert-info left" style="text-align: left;"><p><strong>Phoca Font Plugin</strong> - plugin to display non-standard web font(s) on website.</p><p>Enable and publish this plugin in <a style="text-decoration: underline" href="index.php?option=com_plugins">Plugin Manager</a></p><p>More information: <a style="text-decoration: underline" href="http://www.phoca.cz/" target="_blank" >Phoca.cz</a></p><p>Documentation: <a style="text-decoration: underline" href="http://www.phoca.cz/documentation/" target="_blank" >Phoca Documentation</a></p><p>Help and Support: <a style="text-decoration: underline" href="http://www.phoca.cz/forum/" target="_blank" >Phoca Forum</a></p></div> ]]></description>
+	<version>3.0.4</version>
+	<description>PLG_SYSTEM_PHOCAFONT_DESCRIPTION</description>
+	<projectName>PhocaFontPlugin</projectName>
+
 	<files>
-		<filename plugin="phocafont">phocafont.php</filename>
 		<filename plugin="phocafont">index.html</filename>
+		<filename plugin="phocafont">manifest.xml</filename>
+		<filename plugin="phocafont">phocafont.php</filename>
 	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_phocafont.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_phocafont.sys.ini</language>
+	</languages>
+
+	<administration>
+		<languages>
+			<language tag="en-GB">language/en-GB/en-GB.plg_system_phocafont.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.plg_system_phocafont.sys.ini</language>
+		</languages>
+	</administration>
+	
 	<config>
 	</config>
+
+	<updateservers>
+		<server type="extension" name="PLG_SYSTEM_PHOCAFONT" priority="1"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaFontPlugin/master/manifest.xml]]></server>
+	</updateservers>
 </extension>
