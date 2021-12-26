@@ -2,13 +2,13 @@
 
 
 
-![Phoca Font System Plugin](https://github.com/PhocaCz/PhocaFontPlugin/blob/master/phocafont.png)
+![Phoca Font System Plugin](https://github.com/PhocaCz/PhocaFontPlugin/blob/master/phocafont.png?raw=true)
 
 # Phoca Font System Plugin
 
 
 
-Phoca Font Plugin is a system plugin. This plugin works together with Phoca Font Component. They add support for using downloadable fonts in your Joomla! site. You can upload and select your own .ttf or .otf font file in Phoca Font Component. Font included in this font file will be rendered by Phoca Font Plugin on your site (with help of @font-face rule).
+Phoca Font Plugin is a system plugin. This plugin works together with Phoca Font Component. They add support for using internal and external fonts in your Joomla! site. Phoca Font supports variable fonts. Variable font is a specification that enables many different variations of a typeface to be incorporated into a single file. External fonts are fonts listed in Google Fonts directory and such fonts can be displayed on your website.
 
 
 
@@ -23,6 +23,8 @@ Phoca Font Plugin is a system plugin. This plugin works together with Phoca Font
 ## Documentation
 
 [Documentation](https://www.phoca.cz/documentation/category/56-phoca-font-plugin)
+
+
 
 
 
@@ -52,9 +54,13 @@ Phoca Font Plugin is a system plugin. This plugin works together with Phoca Font
 
 
 
-## Version
+## Version (Joomla! 3.x)
 
 3.0.4
+
+## Version (Joomla! 4.x)
+
+4.0.0
 
 
 
